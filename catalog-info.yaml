@@ -8,4 +8,15 @@ metadata:
 spec:
   type: documentation
   lifecycle: experimental
-  owner: InSphere Team
+  owner: insphere  # ✅ FIXED
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: insphere
+spec:
+  type: team
+  profile:
+    displayName: InSphere Team
+  children: []

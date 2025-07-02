@@ -1,4 +1,7 @@
-site_name: InSphere Docs
-
+site_name: insphere-docs
+site_description: Internal documentation for InSphere
+plugins:
+  - techdocs-core
 nav:
   - Home: index.md
+

@@ -5,7 +5,7 @@ metadata:
   name: insphere-docs
   description: Second test TechDocs setup
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/RajeyshriyaT/insphere-docs/blob/main/docs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: documentation
   lifecycle: experimental

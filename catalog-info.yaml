@@ -1,24 +1,13 @@
+
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: insphere-docs
-  description: Internal documentation for InSphere
+  description: Second test TechDocs setup
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/RajeyshriyaT/insphere-docs/blob/main/docs
 spec:
   type: documentation
   lifecycle: experimental
   owner: insphere
-
----
-apiVersion: backstage.io/v1alpha1
-kind: Group
-metadata:
-  name: insphere
-spec:
-  type: team
-  profile:
-    displayName: InSphere Team
-  children: []
-
 

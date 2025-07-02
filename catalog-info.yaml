@@ -4,11 +4,11 @@ metadata:
   name: insphere-docs
   description: Internal documentation for InSphere
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: url:https://github.com/RajeyshriyaT/insphere-docs/blob/main/docs
 spec:
   type: documentation
   lifecycle: experimental
-  owner: insphere  # ✅ FIXED
+  owner: insphere
 
 ---
 apiVersion: backstage.io/v1alpha1
@@ -20,3 +20,5 @@ spec:
   profile:
     displayName: InSphere Team
   children: []
+
+
